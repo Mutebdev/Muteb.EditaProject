@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-principal {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 300px;
+
+    border: 4px solid green;
+
+
+
+}
+
+.relogio {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid blue;
+
+    width: 70px;
+    height: 50px;
+}
